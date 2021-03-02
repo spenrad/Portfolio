@@ -5,10 +5,11 @@ body {
 
 .navbar {
     background-color: #151515;
+    width: 100%
 }
 
 #box {
-    margin: 10vh 2vw 0;
+    margin: 10vh 0;
 }
 
 .card {
@@ -17,7 +18,41 @@ body {
     height: 15rem; 
 }
 
+#socials {
+    cursor: pointer;
+}
 
+a {
+    text-decoration: none;
+    color: #E9B872;
+}
+
+#linkedIn, #gitHub {
+    height: 200px;
+    width: 200px;
+}
+
+#linkedIn {
+    float: left;
+}
+
+#gitHub {
+    float: right;
+}
+
+.project {
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+}
+
+.card-header {
+    font-weight: 800;
+    float:left;
+}
+
+.projImg {
+    width:40vw;
+}
 /* 
 #A63D40 red
 #6494AA blue

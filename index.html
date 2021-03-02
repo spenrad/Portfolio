@@ -1,54 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>spencer christy</title>
   </head>
   <body>
     <nav class="navbar navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color:#E9B872">spencer christy</a>
+        <a class="navbar-brand" href="#" style="color: #e9b872"
+          >spencer christy</a
+        ><span style="color: #e9b872">spenrad@gmail.com</span>
       </div>
     </nav>
 
-    <div class ="container-fluid" id="box">
-      <div class = "row g-4">
-        <div class = "col-md-4  col-12">
-          <div class="card" style="width: 16rem;" id="projects">
-            <img src="./assets/projectimg.jpg" class="cardImg" alt="project card image">
-            <div class="card-body">
-              <p class="card-text">projects that I'm proud of.</p>
-            </div>
-          </div>
+    <div class="container-fluid" id="box">
+      <div class="row g-4" style="margin-left:3vw;">
+        <div class="col-md-4 col-12">
+          <a href="projects.html"
+            ><div class="card" style="width: 16rem" id="projects">
+              <img
+                src="./assets/projectimg.jpg"
+                class="cardImg"
+                alt="project card image"
+              />
+              <div class="card-body">
+                <p class="card-text">projects that I'm proud of.</p>
+              </div>
+            </div></a
+          >
         </div>
-        <div class = "col-md-4  col-12">
-          <div class="card" style="width: 16rem;" id="socials">
-            <img src="./assets/buslogos.jpg" class="cardImg" alt="linkedin and github logos">
+        <div class="col-md-4 col-12">
+          <div
+            class="card"
+            style="width: 16rem"
+            id="socials"
+            data-bs-toggle="modal"
+            data-bs-target="#socialsModal"
+          >
+            <img
+              src="./assets/buslogos.jpg"
+              class="cardImg"
+              alt="linkedin and github logos"
+            />
             <div class="card-body">
               <p class="card-text">find me on the web.</p>
             </div>
           </div>
         </div>
-        <div class = "col-md-4  col-12">
-          <div class="card" style="width: 16rem;" id="resume">
-            <img src="./assets/resume.jpg" class="cardImg" alt="resume card image">
-            <div class="card-body">
-              <p class="card-text">qualifications<b>,</b> in writing.</p>
-            </div>
+        <div class="col-md-4 col-12">
+          <a
+            href="https://docs.google.com/document/d/1ldvbq_1vePnFg1KKPuAW9o05M-rTyvvre7kjiXKcetk/export?format=pdf"
+            ><div class="card" style="width: 16rem" id="resume">
+              <img
+                src="./assets/resume.jpg"
+                class="cardImg"
+                alt="resume card image"
+              />
+              <div class="card-body">
+                <p class="card-text">qualifications<b>,</b> in writing.</p>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="socialsModal"
+      tabindex="-1"
+      aria-labelledby="socialsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <a
+              href="https://www.linkedin.com/in/spencer-christy/"
+              target="_blank"
+              ><img src="./assets/linkedIn.jpg" id="linkedIn"
+            /></a>
+            <a href="https://github.com/spenrad" target="_blank"
+              ><img src="./assets/github.jpg" id="gitHub"
+            /></a>
           </div>
         </div>
       </div>
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
